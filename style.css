@@ -1,0 +1,18 @@
+*{
+    font-family: Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container{
+    
+    padding: 10px;
+
+
+}
+
+.container::after{
+    clear: both;
+    display: table;
+    content: "";
+}
